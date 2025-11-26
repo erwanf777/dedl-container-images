@@ -24,7 +24,15 @@ dependencies:
   - eccodes=2.35.0
   - python-eccodes
   - earthkit-data
-  - rioxarray
+  - netcdf4>=1.6.0
+  - h5netcdf>=1.7.3
+  - astropy>=6.1.7
+  - astropy-healpix>=1.1.2
+  - cf-xarray>=0.9.0
+  - loguru>=0.7.3
+  - pydantic>=2.12.3
+  - pyyaml>=6.0.3
+  - psutil>=7.1.1
   - pip:
       - pystac_client
       - rich
